@@ -2,13 +2,35 @@
 # HW1
 ## W1L2 In-Class Activity
 
-Put your notes from the W1L2 (Thurs, Jan 9) in-class activity here.
+## Put your notes from the W1L2 (Thurs, Jan 9) in-class activity 
+How would you describe this game world in objects?
+-plant count UI: seed planted UI/seeds remaining UI
+-players
+-plants
+
+What attributes and  actions do these objects have?
+-Seed UI
+Attributes: quantity, texts
+actions: can be planted by the players, count goes up/down when player plants a seed
+
+-Player object
+Attributes: bunny sprite
+Actions: move with fours directions, can plant seeds
+*output: seed is planted as player¡¯s location, decreases seed count + increase seed count (shows up in the UI); player has to have seeds left in order to plant
+
+-Plants object:
+Attributes: position in the game world, plant sprite
+Actions: appear
+
+How do these objects act on or affect each other?
+-The player can interact with seeds by planting them
+-planting a seed can make a plant object appear
+-The seed planted UI and seed remaining UI update everytime the seed is planted
+
+The player object corresponds to player class in C#
+the player has an attribute  - corresponds to the code part in C### Devlog
 
 ## Devlog
-Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lecture 2 (Jan 9) in-class activity (above). If you did not attend and perform this activity, review the lecture slides and write your own plan for how you believe HW1 should be built. If your initially proposed plan turned out significantly different than the activity answers given by Prof Reid, you may want to note what was different. Then, write about how the plan you wrote in the break-down connects to the code you wrote. Cite specific class names and method names in the code and GameObjects in your Unity Scene.
-
-
-Write your Devlog here!
 
 
 ## Open-Source Assets
